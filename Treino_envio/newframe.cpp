@@ -222,7 +222,7 @@ void newFrame::SoRodar(){
 
 void newFrame::ReadObj(){
     int indice = 0;
-    QFile file(FileNome); //"C:\\Users\\E470\\Documents\\Treino_envio\\Charizard.obj"
+    QFile file(FileNome); 
 
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)){
 
