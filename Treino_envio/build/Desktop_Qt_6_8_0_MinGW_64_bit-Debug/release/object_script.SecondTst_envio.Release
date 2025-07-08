@@ -1,0 +1,13 @@
+release/linha.o
+release/main.o
+release/mainwindow.o
+release/moldes.o
+release/newframe.o
+release/objetu.o
+release/rect.o
+release/moc_linha.o
+release/moc_mainwindow.o
+release/moc_moldes.o
+release/moc_newframe.o
+release/moc_objetu.o
+release/moc_rect.o

@@ -1,0 +1,13 @@
+debug/linha.o
+debug/main.o
+debug/mainwindow.o
+debug/moldes.o
+debug/newframe.o
+debug/objetu.o
+debug/rect.o
+debug/moc_linha.o
+debug/moc_mainwindow.o
+debug/moc_moldes.o
+debug/moc_newframe.o
+debug/moc_objetu.o
+debug/moc_rect.o

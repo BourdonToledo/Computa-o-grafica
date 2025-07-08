@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="newFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nova Linha</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Novo Objeto</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="x1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="y1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>230</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="x2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="y2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>310</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X1</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>200</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y1</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X2</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>280</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y2</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="Index">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quadrado</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>300</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Girar e muliplicar</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="anguloZ">
+    <property name="geometry">
+     <rect>
+      <x>561</x>
+      <y>109</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-359.990000000000009</double>
+    </property>
+    <property name="maximum">
+     <double>359.990000000000009</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>79</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Angulo XY</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>190</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>multiplicador X</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>190</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>multiplicador y</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="multi_y">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>220</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+    <property name="maximum">
+     <double>99.989999999999995</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="multi_x">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>220</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+    <property name="maximum">
+     <double>99.989999999999995</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>260</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Multiplicar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RemovarOBJ">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Iniciar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RotarDir">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>150</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotar </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>350</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>^</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>380</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>v</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>380</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>380</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cria_casa">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Casa</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="z1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="z2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Z1</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>280</y>
+      <width>51</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Z2</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="anguloY">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>109</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-359.990000000000009</double>
+    </property>
+    <property name="maximum">
+     <double>359.990000000000009</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="anguloX">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>109</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-359.990000000000009</double>
+    </property>
+    <property name="maximum">
+     <double>359.990000000000009</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>79</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Angulo YZ</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_12">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>80</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Angulo XZ</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="multi_y_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>220</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-99.989999999999995</double>
+    </property>
+    <property name="maximum">
+     <double>99.989999999999995</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>190</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>multiplicador y</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>100</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cubo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Piramide</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>printar .Obj</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inserir pathing do arquivo .OBJ</string>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Afastar">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>350</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Afastar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Aproximar">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>350</y>
+      <width>71</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aproximar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>newFrame</class>
+   <extends>QFrame</extends>
+   <header>newframe.h</header>
+   <container>1</container>
+   <slots>
+    <slot>NewLinha()</slot>
+    <slot>Atualizar()</slot>
+    <slot>Rotar()</slot>
+    <slot>Escalar()</slot>
+    <slot>New()</slot>
+    <slot>ReadObj()</slot>
+    <slot>Acima()</slot>
+    <slot>Abaixo()</slot>
+    <slot>Direita()</slot>
+    <slot>Esquerda()</slot>
+    <slot>Afastar()</slot>
+    <slot>Aproximar()</slot>
+    <slot>FazerQuadrado()</slot>
+    <slot>Iniciar()</slot>
+    <slot>SoRodar()</slot>
+    <slot>FazerCasa()</slot>
+    <slot>Cubo()</slot>
+    <slot>Piramide()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>NewLinha()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>99</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>New()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>289</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>124</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Index</receiver>
+   <slot>stepUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>64</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>340</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>FazerQuadrado()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>270</x>
+     <y>101</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Index</receiver>
+   <slot>stepUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>77</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>336</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Rotar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>518</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Escalar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RotarDir</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>SoRodar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Acima()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>325</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Abaixo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>361</x>
+     <y>418</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Direita()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>414</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Esquerda()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>283</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>288</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cria_casa</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>FazerCasa()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>145</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cria_casa</sender>
+   <signal>clicked()</signal>
+   <receiver>Index</receiver>
+   <slot>stepUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>137</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>66</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RemovarOBJ</sender>
+   <signal>clicked()</signal>
+   <receiver>Index</receiver>
+   <slot>stepDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>460</x>
+     <y>75</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Cubo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Index</receiver>
+   <slot>stepUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Piramide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>155</x>
+     <y>175</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>242</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>ReadObj()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>216</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RemovarOBJ</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Iniciar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>100</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Aproximar</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Aproximar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Afastar</sender>
+   <signal>clicked()</signal>
+   <receiver>frame</receiver>
+   <slot>Afastar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>282</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
